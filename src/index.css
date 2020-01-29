@@ -23,17 +23,44 @@ main {
 .page-view {
   min-height: 40vh;
 }
+header h1{
+  text-align:center;
+}
 
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
-.main-img {
-  display: block;
-  border-radius: 100%;
-  margin: 0 auto;
-} */
 
-header h1 {
+
+.navitem{
+  color:blue;
+  margin: 0 1%;
+  background-color: white;
+}
+.active{
+  color:white;
+  background-color: blue;
+  border-radius:5px;
+  margin: 0 1%;
+
+}
+.location-container{
+  width:50%;
+  margin:0;
+  padding:0;
+  color:gray;
+  text-shadow: 1px 1px blue;
+}
+.location{
+  border:5px solid blue;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   text-align: center;
+
+}
+.character{
+  width:35%;
 }
